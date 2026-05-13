@@ -117,6 +117,7 @@ React is a powerful JavaScript library used for building modern, fast, and inter
 # 📅 Daily Progress Updates
 
 ## 🚀 Day 1
+
 ### 📘 Topics Learned
 - React Introduction
 - JSX
@@ -131,10 +132,10 @@ React is a powerful JavaScript library used for building modern, fast, and inter
 ---
 
 ## 🚀 Day 2
+
 ### 📘 Topics Learned
 - useState Hook
 - Event Handling
-- Form Handling
 - Controlled Components
 
 ### 💻 Practice Done
@@ -146,6 +147,7 @@ React is a powerful JavaScript library used for building modern, fast, and inter
 ---
 
 ## 🚀 Day 3
+
 ### 📘 Topics Learned
 - Dynamic Rendering
 - Arrow Functions
@@ -154,6 +156,139 @@ React is a powerful JavaScript library used for building modern, fast, and inter
 ### 💻 Practice Done
 - Interactive Components
 - Dynamic UI Updates
+
+---
+
+## 🚀 Day 4
+
+### 📘 Topics Learned
+- React Form Handling
+- Event Handling in React
+- handleChange Function
+- handleSubmit Function
+- preventDefault()
+- Controlled Components
+- Managing Multiple Inputs using useState
+
+### 💻 Practice Done
+- Built Student Registration Form 🎓
+- Built Job Application Form 💼
+- Built Idea Submission Form 💡
+- Managed form state dynamically
+- Implemented input handling using `onChange`
+- Implemented form submission using `onSubmit`
+- Prevented page refresh using `preventDefault()`
+- Practiced dynamic object state updates using spread operator
+
+---
+
+# 🧠 Concepts Practiced
+
+## 🔥 handleChange()
+
+Used to dynamically update form input values.
+
+```js
+const handleChange = (e) => {
+
+   const { name, value } = e.target;
+
+   setStudentForm({
+      ...studentForm,
+      [name]: value
+   })
+}
+```
+
+---
+
+## 🔥 handleSubmit()
+
+Used to handle form submission.
+
+```js
+const handleSubmit = (e) => {
+
+   e.preventDefault();
+
+   console.log(studentForm);
+}
+```
+
+---
+
+## 🔥 preventDefault()
+
+Used to stop page refresh after form submission.
+
+```js
+e.preventDefault()
+```
+
+---
+
+# 📸 Forms Developed Today
+
+## 🎓 Student Registration Form
+
+### Features
+- Name Input
+- Email Input
+- Mobile Number
+- Course Selection
+- Gender Selection
+- Address Textarea
+- Form Submission
+
+---
+
+## 💼 Job Application Form
+
+### Features
+- Personal Details
+- Resume Upload
+- Skills Selection
+- Experience Section
+- Cover Letter
+
+---
+
+## 💡 Idea Submission Form
+
+### Features
+- Idea Title
+- Idea Description
+- Category Selection
+- Supporting Document Upload
+
+---
+
+# 🚀 Skills Improved Today
+
+✅ React Form Handling  
+✅ Event Handling  
+✅ Controlled Components  
+✅ Dynamic State Management  
+✅ useState Hook  
+✅ Input Handling  
+✅ Form Submission Logic  
+✅ JSX Practice  
+✅ React Component Design  
+
+---
+
+# 📈 Learning Progress Updated
+
+| React Concepts | Status |
+|----------------|--------|
+| JSX | ✅ |
+| Components | ✅ |
+| useState Hook | ✅ |
+| Event Handling | ✅ |
+| Form Handling | ✅ |
+| Controlled Components | ✅ |
+| Dynamic Rendering | ✅ |
+| useEffect Hook | 🔄 Learning |
 
 ---
 
@@ -229,6 +364,10 @@ src/
 - 📝 Form Handling
 - 🔄 Controlled Components
 - 🚀 Dynamic Rendering
+- 📦 Multiple Input Handling
+- 🔥 preventDefault()
+- ⚡ handleChange()
+- 🚀 handleSubmit()
 
 ---
 
@@ -238,7 +377,7 @@ src/
 
 | Week | Progress |
 |------|----------|
-| Week 1 | ████████░░ 80% |
+| Week 1 | █████████░ 90% |
 | Week 2 | ███░░░░░░░ 20% |
 | Week 3 | ░░░░░░░░░░ 0% |
 | Week 4 | ░░░░░░░░░░ 0% |
@@ -254,6 +393,7 @@ src/
 - 📱 Responsive Design
 - ⚡ Learn Redux
 - 🚀 Build Full Stack Applications
+- 🤖 Build AI Powered Projects
 
 ---
 
