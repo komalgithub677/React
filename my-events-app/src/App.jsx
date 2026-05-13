@@ -1,11 +1,11 @@
-import { useState } from 'react'
 import './App.css'
 import OnClickAndOnchange from './OnClickAndOnchange'
-import EmployeeForm from './EmployeeForm'
+// import EmployeeForm from './EmployeeForm'
+// import StudentRegistrationForm from './StudentRegistrationForm'
+// import JobApplicationForm from '../JobApplicationForm'
+import { IdeaSubmissionForm } from './IdeaSubmissionForm'
 
 function App() {
-
-
 
   return (
     <>
@@ -13,9 +13,12 @@ function App() {
 
         <h1>Welcome to my Events App..</h1>
 
-       {/* <OnClickAndOnchange/> */}
+        {/* <OnClickAndOnchange/> */}
 
-       <EmployeeForm/>
+        {/* <EmployeeForm/> */}
+
+        {/* <StudentRegistrationForm /> */}
+        <IdeaSubmissionForm/>
 
       </center>
     </>
