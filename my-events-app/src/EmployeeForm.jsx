@@ -33,6 +33,8 @@ const EmployeeForm = () => {
 
         let { name, value } = e.target;  // name = empname , value = raj
 
+        let [allemp ,setAllemp] = useState([]);
+
         setEmpform({ ...empform, [name]: value })
     }
 
@@ -41,6 +43,8 @@ const EmployeeForm = () => {
         e.preventDefault();   // prevents from page refresh..
         console.log("form submitted..")
         console.log('Employee Data Added : ', empform)
+
+        setAllemp([...allemp, empform])
 
         setEmpform({ id: "", empname: "", role: "", salary: "" })   // clear the fields after form submits
     }
@@ -61,7 +65,30 @@ const EmployeeForm = () => {
 
             </form>
 
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {allemp.map((emp) => (
+                        <tr key={emp.id}>
+                            <td>{emp.id}</td>
+                            <td>{emp.empname}</td>
+                            <td>{emp.role}</td>
+                            <td>{emp.salary}</td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+
         </div>
+
+        
     )
 }
 
