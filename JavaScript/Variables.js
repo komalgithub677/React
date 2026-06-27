@@ -90,7 +90,7 @@ let mn = [1,2,3]
 
 let op = null 
 
-let qr = 
+let qr = undefined
 
 console.log("---- Data types ------")
 
@@ -110,9 +110,14 @@ console.log(typeof qr)
 // undefined
 
 let aa ; 
+
 let bb = 5; 
 
 console.log('sum = '+(aa+bb))
 
-
 console.log("5" - 2);
+
+
+
+
+

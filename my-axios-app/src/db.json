@@ -1,0 +1,64 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Aarav Sharma",
+      "role": "Frontend Developer",
+      "salary": 45000
+    },
+    {
+      "id": 2,
+      "name": "Priya Patil",
+      "role": "Backend Developer",
+      "salary": 55000
+    },
+    {
+      "id": 3,
+      "name": "Rohan Verma",
+      "role": "Full Stack Developer",
+      "salary": 65000
+    },
+    {
+      "id": 4,
+      "name": "Sneha Kulkarni",
+      "role": "UI/UX Designer",
+      "salary": 40000
+    },
+    {
+      "id": 5,
+      "name": "Aditya Joshi",
+      "role": "DevOps Engineer",
+      "salary": 70000
+    },
+    {
+      "id": 6,
+      "name": "Neha Singh",
+      "role": "QA Engineer",
+      "salary": 38000
+    },
+    {
+      "id": 7,
+      "name": "Vikram Rao",
+      "role": "Project Manager",
+      "salary": 85000
+    },
+    {
+      "id": 8,
+      "name": "Kiran Deshmukh",
+      "role": "Data Analyst",
+      "salary": 50000
+    },
+    {
+      "id": 9,
+      "name": "Anjali Mehta",
+      "role": "HR Executive",
+      "salary": 35000
+    },
+    {
+      "id": 10,
+      "name": "Rahul Nair",
+      "role": "Software Engineer",
+      "salary": 60000
+    }
+  ]
+}
